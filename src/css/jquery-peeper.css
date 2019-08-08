@@ -1,0 +1,45 @@
+.peeper-keyhole,
+.peeper-copy-pass {
+    position: relative;
+    top: -26px;
+    float: right;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    z-index: 100;
+    cursor: pointer;
+    color: rgba(0,0,0,0.25);
+}
+
+.peeper-mask.gray {
+    border:1px solid #ddd;
+    background: #dbdbdb;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbdbdb', endColorstr='#efefef', GradientType=1); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(#dbdbdb), to(#efefef)); /* for webkit browsers */
+    background: -moz-linear-gradient(left, #dbdbdb,  #efefef); /* for firefox 3.6+ */
+}
+
+.peeper-mask.blue {
+    border:1px solid #0097c8;
+    background: #0098cb;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0098cb', endColorstr='#00bcff', GradientType=1); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(#0098cb), to(#00bcff)); /* for webkit browsers */
+    background: -moz-linear-gradient(left, #0098cb,  #00bcff); /* for firefox 3.6+ */
+}
+
+.peeper-mask.green {
+    border:1px solid #43c800;
+    background: #43c800;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#43c800', endColorstr='#55f500', GradientType=1); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(#43c800), to(#55f500)); /* for webkit browsers */
+    background: -moz-linear-gradient(left, #43c800,  #55f500); /* for firefox 3.6+ */
+}
+
+.peeper-mask.red {
+    border:1px solid #aa0000;
+    background: #d40000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d40000', endColorstr='#f00000', GradientType=1); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(#d40000), to(#f00000)); /* for webkit browsers */
+    background: -moz-linear-gradient(left, #d40000,  #f00000); /* for firefox 3.6+ */
+}

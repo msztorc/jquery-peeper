@@ -10,14 +10,19 @@ jQuery plugin designed to view and copy password as plain text from password typ
 
 ##### download
 
+Download [latest release](https://github.com/msztorc/jquery-peeper/releases/latest) 
+
 CSS
 
-```<link rel="stylesheet" href="/jquery-peeper/dist/css/jquery-peeper.min.css" />```
-
+```
+<link rel="stylesheet" href="/jquery-peeper/dist/css/jquery-peeper.min.css" />
+```
 
 JS
 
-```<script src="/jquery-peeper/dist/js/jquery-peeper.min.js"></script>```
+```
+<script src="/jquery-peeper/dist/js/jquery-peeper.min.js"></script>
+```
 
 #### Usage
 

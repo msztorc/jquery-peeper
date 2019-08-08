@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../src/css/jquery-peeper.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+        <style>
+            .container {
+                margin-top:100px;
+                width: 100%;
+            }
+            h1 { padding:50px 0; }
+            small {
+                color:#aaa;
+                font-size:12px;
+            }
+            label {
+                font-size:13px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>jQuery-peeper</h1>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal" method="" action="">
+                                <div class="form-group">
+                                    <label class="control-label">Default password field</label>
+                                    <div>
+                                        <input id="password1" type="password" class="form-control" name="password" value="secret">
+                                        <small>Show and copy password buttons</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Only copy password button</label>
+                                    <div>
+                                        <input id="password2" type="password" class="form-control" name="password" value="secret">
+                                        <small>Only copy password button</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Custom icon (font-awesome)</label>
+                                    <div>
+                                        <input id="password3" type="password" class="form-control" name="password" value="secret">
+                                        <small>Custom peeper icon</small>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal" method="" action="">
+                                <div class="form-group">
+                                    <label class="control-label">Animated mask</label>
+                                    <div>
+                                        <input id="password4" type="password" class="form-control" name="password" value="secret">
+                                        <small>Show on <i>mouseup</i> event</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Toggle password on click</label>
+                                    <div>
+                                        <input id="password5" type="password" class="form-control" name="password" value="secret">
+                                        <small>Toggle show password on <i>click</i></small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Clicking on the mask</label>
+                                    <div>
+                                        <input id="password6" type="password" class="form-control" name="password" value="secret">
+                                        <small>Show password by clicking on the mask</small>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal" method="" action="">
+                                <div class="form-group">
+                                    <label class="control-label">Blue mask</label>
+                                    <div>
+                                        <input id="password7" type="password" class="form-control" name="password" value="secret">
+                                        <small>Blue colored mask</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Gray mask</label>
+                                    <div>
+                                        <input id="password8" type="password" class="form-control" name="password" value="secret">
+                                        <small>Gray colored mask</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Green mask</label>
+                                    <div>
+                                        <input id="password9" type="password" class="form-control" name="password" value="secret">
+                                        <small>Green colored mask</small>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form class="form-horizontal" method="" action="">
+                                <div class="form-group">
+                                    <label class="control-label">Mask with opacity</label>
+                                    <div>
+                                        <input id="password10" type="password" class="form-control" name="password" value="secret">
+                                        <small>Copy password (mask with opacity)</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Mask with opacity</label>
+                                    <div>
+                                        <input id="password11" type="password" class="form-control" name="password" value="secret">
+                                        <small>Copy password (mask with opacity)</small>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Mask with opacity</label>
+                                    <div>
+                                        <input id="password12" type="password" class="form-control" name="password" value="secret">
+                                        <small>Copy password (mask with opacity)</small>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../src/js/jquery-peeper.js"></script>
+    <script>
+        $(function(){
+            $("#password1").peeper({
+                mask: false
+            });
+
+            $("#password2").peeper({
+                mask: false,
+                showPasswordBtn: false
+            });
+
+            $("#password3").peeper({
+                mask: false,
+                showPasswordCss: 'fa fa-eye',
+                showCopyBtn: false
+            });
+
+            $("#password4").peeper({
+                mask: true,
+                maskCss: 'gray'
+            });
+
+            $("#password5").peeper({
+                maskCss: 'gray',
+                showEvent: 'click',
+                showPasswordBtn: true
+            });
+
+            $("#password6").peeper({
+                maskCss: 'gray',
+                showPasswordBtn: false,
+                showCopyBtn: false,
+                showElement: '.peeper-mask',
+                showEvent: 'click'
+            });
+
+            $("#password7").peeper({
+                maskCss: 'blue',
+                showPasswordBtn: true,
+                showCopyBtn: false,
+                showPasswordCss: 'fa fa-lock',
+                showEvent: 'click'
+            });
+            $("#password8").peeper({
+                maskCss: 'red',
+                showPasswordBtn: true,
+                showCopyBtn: false,
+                showPasswordCss: 'fa fa-lock',
+                showEvent: 'click'
+            });
+            $("#password9").peeper({
+                maskCss: 'green',
+                showPasswordBtn: true,
+                showCopyBtn: false,
+                showPasswordCss: 'fa fa-lock',
+                showEvent: 'click'
+            });
+
+            $("#password10").peeper({
+                maskCss: 'green',
+                maskOpacity: 0.25,
+                showPasswordBtn: false,
+                showCopyBtn: true,
+                showEvent: 'click'
+            });
+            $("#password11").peeper({
+                maskCss: 'gray',
+                maskOpacity: 0.25,
+                showPasswordBtn: false,
+                showCopyBtn: true,
+                showEvent: 'click'
+            });
+
+            $("#password12").peeper({
+                maskCss: 'blue',
+                maskOpacity: 0.25,
+                showPasswordBtn: true,
+                showCopyBtn: true,
+                showEvent: 'click'
+            });
+        });
+    </script>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "jquery-peeper",
+  "version": "1.0.0",
+  "description": "jQuery plugin designed to view and copy password as plain text from password type fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msztorc/jquery-peeper.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "password",
+    "jquery",
+    "show-password",
+    "input",
+    "copy-password"
+  ],
+  "author": "Miroslaw Sztorc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msztorc/jquery-peeper/issues"
+  },
+  "homepage": "https://github.com/msztorc/jquery-peeper#readme"
+}

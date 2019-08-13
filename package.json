@@ -4,7 +4,7 @@
   "description": "jQuery plugin designed to view and copy password as plain text from password type fields",
   "main": "dist/js/jquery-peeper.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",

@@ -11,6 +11,7 @@
     "url": "git+https://github.com/msztorc/jquery-peeper.git"
   },
   "keywords": [
+    "jquery-plugin",
     "bootstrap",
     "password",
     "jquery",

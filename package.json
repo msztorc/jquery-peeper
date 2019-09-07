@@ -1,6 +1,6 @@
 {
   "name": "jquery-peeper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jQuery plugin designed to view and copy password as plain text from password type fields",
   "main": "dist/js/jquery-peeper.min.js",
   "scripts": {
